@@ -14,7 +14,7 @@ header, footer {
 }
 
 header {
-  font-family: IBM Plex Sans, serif;
+  font-family: 'IBM Plex Sans', serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -37,7 +37,7 @@ main {
 }
 
 h1 {
-  font-family: Space Mono;
+  font-family: 'Space Mono', sans-serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-  font-family: Space Mono;
+  font-family: 'Space Mono', sans-serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -70,7 +70,7 @@ img {
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .buttonBox {
@@ -121,7 +121,7 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Space Mono;
+  font-family: 'Space Mono', sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -132,7 +132,7 @@ img {
 }
 
 .description {
-  font-family: IBM Plex Sans;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
@@ -155,8 +155,14 @@ img {
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Space Mono', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 @media all and (max-width:700px) {
